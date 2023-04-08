@@ -1,0 +1,298 @@
+:root {
+  /* Fonts */
+  --primary-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+  /* Text colors */
+  --main-tx-cl: #434455;
+  --iris-tx-cl: #4d5ae5;
+  --navy-blue-tx-cl: #2e2f42;
+  --accent-tx-cl: #404bbf;
+  --white-tx-cl: #ffffff;
+  --cloud-tx-cl: #f4f4fd;
+  /* Bg colors */
+  --dark-bg-cl: #2e2f42;
+  --main-bg-cl: #ffffff;
+  --iris-bg-cl: #4d5ae5;
+  --ocean-bg-cl: #404bbf;
+  --light-bg-cl: #f4f4fd;
+  --cloud-bg-cl: #f4f4fd;
+}
+
+/* Base styles */
+body {
+  color: var(--main-tx-cl);
+  background-color: var(--main-bg-cl);
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.logo {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--iris-tx-cl);
+  text-transform: uppercase;
+}
+.title {
+  color: var(--navy-blue-tx-cl);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+}
+.section {
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* reset start */
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* reset end */
+
+
+/* Header section */
+.header {
+}
+
+.header-nav {
+}
+
+.header-logo {
+  color: var(--navy-blue-tx-cl);
+}
+
+.header-list {
+}
+
+.header-item {
+}
+
+.header-link {
+  font-weight: 500;
+  color: var(--navy-blue-tx-cl);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-tx-cl);
+}
+.header-contact {
+  font-style: normal;
+}
+
+.header-contact-list {
+}
+
+.header-contact-item {
+}
+
+.header-contact-link {
+  color: inherit;
+}
+.header-contact-link:hover,
+.header-contact-link:focus {
+  color: var(--accent-tx-cl);
+}
+/* Hero section */
+
+.hero {
+  background-color: var(--dark-bg-cl);
+  color: var(--white-tx-cl);
+}
+
+.hero-heading {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.hero-btn {
+  background-color: var(--iris-bg-cl);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-tx-cl);
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--ocean-bg-cl);
+}
+/* Features section */
+
+.features {
+}
+
+.features-title {
+}
+
+.features-list {
+}
+
+.features-item {
+}
+
+.features-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-tx-cl);
+}
+
+.features-text {
+  color: var(--main-tx-cl);
+}
+
+.fearures-item {
+}
+
+/* Our works */
+
+.works {
+}
+
+.works-title {
+  text-transform: capitalize;
+}
+
+.works-list {
+}
+
+.list {
+}
+
+.works-item {
+}
+
+.works-img {
+}
+
+/* Our team */
+
+.team {
+  background-color: var(--light-bg-cl);
+}
+
+.team-title {
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+}
+
+.tem-list {
+}
+
+.team-item {
+  background-color: var(--main-bg-cl);
+}
+.team-img {
+}
+.team-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-tx-cl);
+  text-transform: capitalize;
+}
+
+.team-text {
+  color: var(--main-tx-cl);
+  text-align: center;
+}
+/* Filter section*/
+
+.filter {
+}
+
+.filter-heading {
+}
+
+.filter-list {
+}
+
+.filter-item {
+}
+
+.filter-btn {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--cloud-bg-cl);
+  color: var(--iris-tx-cl);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-align: center;
+  cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--ocean-bg-cl);
+  color: var(--white-tx-cl);
+}
+.filter-img {
+}
+
+.filter-title {
+  color: var(--navy-blue-tx-cl);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.filter-text {
+}
+
+/* Footer section */
+
+.footer {
+  background-color: var(--dark-bg-cl);
+}
+
+.footer-logo {
+  color: var(--cloud-tx-cl);
+}
+
+.footer-text {
+  color: var(--cloud-tx-cl);
+}
