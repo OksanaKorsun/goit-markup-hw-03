@@ -60,8 +60,11 @@ body {
 /* reset start */
 .link {
   text-decoration: none;
+  color: currentColor;
 }
 .list {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 h1,
@@ -73,11 +76,6 @@ h6,
 p {
   margin: 0;
 }
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 img {
   display: block;
   max-width: 100%;
@@ -85,6 +83,14 @@ img {
 }
 /* reset end */
 
+.container {
+  max-width: 1158;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
 
 /* Header section */
 .header {
