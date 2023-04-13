@@ -126,8 +126,7 @@ button {
 .header-nav {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   margin-right: auto;
 }
 
@@ -140,6 +139,9 @@ button {
   display: flex;
   align-items: center;
   gap: 40px;
+}
+.header-list:last-child {
+  margin-right: 0;
 }
 
 .header-item {
@@ -314,6 +316,10 @@ button {
 .filter-section {
   padding-top: 96px;
 }
+.filter-container {
+  padding: 32px 16px;
+  border-top: none;
+}
 
 .filter-heading {
 }
@@ -343,17 +349,20 @@ button {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--ocean-bg-cl);
+  color: var(--white-tx-cl);
+  border: 1px solid transparent;
+}
+
 .filter-list-img {
   --items: 3;
   row-gap: 48px;
 }
 .filter-item-img {
 }
-.filter-btn:hover,
-.filter-btn:focus {
-  background-color: var(--ocean-bg-cl);
-  color: var(--white-tx-cl);
-}
+
 .filter-img {
 }
 .filter-wraper {
