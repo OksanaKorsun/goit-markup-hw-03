@@ -168,7 +168,7 @@ button {
 .header-contact-list {
   display: flex;
   align-items: center;
-  margin-right: 40px
+  margin-right: 40px;
 }
 
 .header-contact-item:last-child {
@@ -370,6 +370,9 @@ button {
 .filter-item-img {
   --indent: 48px;
   margin-right: 24px
+}
+.card-set-item:first-child {
+  width: calc((100% - var(--indent)) / var(--items));
 }
 .filter-item-img:nth-child(3n+3) {
   margin-right: 0;
