@@ -168,13 +168,8 @@ button {
 .header-contact-list {
   display: flex;
   align-items: center;
-  margin-right: 40px;
+  gap: 40px;
 }
-
-.header-contact-list:last-child {
-  margin-right: 0;
-}
-
 .header-contact-link {
   color: inherit;
 }
