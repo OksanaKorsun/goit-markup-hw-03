@@ -359,7 +359,9 @@ button {
   --items: 3;
   row-gap: 48px;
 }
-.filter-item-img {}
+.filter-item-img {
+  border: 1px solid #e7e9fc;
+}
   
 .filter-img {
 }
