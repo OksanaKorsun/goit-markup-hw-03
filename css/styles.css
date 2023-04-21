@@ -315,7 +315,7 @@ button {
   padding-top: 96px;
 }
 .filter-container {
-  padding: 0 16px;
+  padding: 0 15px;
   border-top: none;
 }
 
@@ -357,6 +357,7 @@ button {
 .filter-list-img {
   --items: 3;
   row-gap: 48px;
+  column-gap: 24px;
 }
 .filter-item-img {
   width: calc((100% - 48px) / 3);
